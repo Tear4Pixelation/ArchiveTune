@@ -2,7 +2,7 @@
 <!-- Upstream InnerTune strings --><!-- Do not add new features here --><!-- Try to re-use strings here, but be careful on its usage e.g. verb vs noun --><!-- "InnerTune" is replaced with "ArchiveTune" --><!-- Translators: Do not modify this file for translations, use InnerTune's Weblate instead. --><resources>
     <!-- Bottom navigation -->
     <string name="home">ホーム</string>
-    <string name="songs">歌</string>
+    <string name="songs">曲</string>
     <string name="artists">アーティスト</string>
     <string name="albums">アルバム</string>
     <string name="playlists">プレイリスト</string>
@@ -11,24 +11,24 @@
         <item quantity="other">%d が選択されました</item>
     </plurals>
     <!-- Home -->
-    <string name="history">歴史</string>
+    <string name="history">履歴</string>
     <string name="stats">統計</string>
     <string name="mood_and_genres">ムード &amp; ジャンル</string>
     <string name="mood_and_genres_supporting">感情、時代、エネルギーに合わせてプレイする</string>
     <string name="mood_and_genres_count">%d 件のピック</string>
     <string name="account">アカウント</string>
     <string name="quick_picks">クイックピック</string>
-    <string name="quick_picks_empty">曲を聴いて簡単なピックを作成します</string>
-    <string name="speed_dial">短縮ダイヤル</string>
-    <string name="speed_dial_random">ランダム短縮ダイヤル曲を再生する</string>
-    <string name="forgotten_favorites">忘れてしまったお気に入り</string>
+    <string name="quick_picks_empty">曲を聴くとクイックピックが生成されます</string>
+    <string name="speed_dial">ピン留め</string>
+    <string name="speed_dial_random">ランダムにピン留めした曲を再生する</string>
+    <string name="forgotten_favorites">懐かしのお気に入り</string>
     <string name="keep_listening">聞き続けてください</string>
     <string name="your_youtube_playlists">YouTube プレイリスト</string>
-    <string name="similar_to">に似ている</string>
-    <string name="new_release_albums">新しいリリースのアルバム</string>
+    <string name="similar_to">似ているかも</string>
+    <string name="new_release_albums">新着アルバム</string>
     <string name="select_playlist_to_sync">同期するプレイリストを選択</string>
-    <string name="integration">統合</string>
-    <string name="integrations">統合</string>
+    <string name="integration">連携</string>
+    <string name="integrations">連携</string>
     <string name="internal_subcategory_settings">内部の &amp; サブカテゴリ設定</string>
     <string name="search_try_different">別の検索語を試してください</string>
     <!-- History -->
@@ -44,12 +44,12 @@
     <string name="search">検索</string>
     <string name="search_yt_music">YouTube ミュージックを検索…</string>
     <string name="search_library">ライブラリを検索…</string>
-    <string name="filter_library">図書館</string>
+    <string name="filter_library">ライブラリ</string>
     <string name="filter_liked">気に入った</string>
     <string name="filter_downloaded">ダウンロード済み</string>
     <string name="filter_downloaded_full">ダウンロード済み (フル)</string>
     <string name="filter_all">すべて</string>
-    <string name="filter_songs">歌</string>
+    <string name="filter_songs">楽曲</string>
     <string name="filter_videos">動画</string>
     <string name="filter_albums">アルバム</string>
     <string name="filter_artists">アーティスト</string>
@@ -118,8 +118,8 @@
     <string name="together_host_left_session">ホストが退席したセッション</string>
     <string name="together_kick">キック</string>
     <string name="together_ban">禁止</string>
-    <string name="together_kick_confirm">%1$s?をキックする</string>
-    <string name="together_ban_confirm">禁止 %1$s?</string>
+    <string name="together_kick_confirm">%1$s?をキックする？</string>
+    <string name="together_ban_confirm">%1$sを排除する？</string>
     <string name="together_requesting_song_change">ホストに曲の変更をリクエストしています\u2026</string>
     <string name="together_song_change_failed">ソングチェンジは適用されません。もう一度試してください。</string>
     <string name="remove_from_history">履歴から削除</string>
@@ -140,8 +140,8 @@
     <string name="sort_by_year">年</string>
     <string name="sort_by_song_count">曲数</string>
     <string name="sort_by_length">長さ</string>
-    <string name="sort_by_play_time">プレイ時間</string>
-    <string name="sort_by_most_played">最もプレイされた</string>
+    <string name="sort_by_play_time">再生時間</string>
+    <string name="sort_by_most_played">再生回数</string>
     <string name="sort_by_custom">カスタムオーダー</string>
     <string name="sort_order_ascending">昇順</string>
     <string name="sort_order_descending">降順</string>
@@ -230,7 +230,7 @@
     <string name="error_unknown">不明なエラー</string>
     <!-- Player action -->
     <string name="action_like">いいね</string>
-    <string name="action_like_all">みんなと同じように</string>
+    <string name="action_like_all">すべてをいいねする</string>
     <string name="action_remove_like">いいねを削除</string>
     <string name="action_remove_like_all">すべての「いいね！」を削除</string>
     <string name="action_shuffle_on">シャッフルオン</string>
@@ -265,21 +265,21 @@
     <string name="palette_default">デフォルト</string>
     <!-- Blues -->
     <string name="palette_ocean_blue">オーシャンブルー</string>
-    <string name="palette_arctic_blue">北極</string>
-    <string name="palette_midnight_navy">真夜中</string>
+    <string name="palette_arctic_blue">北極の青</string>
+    <string name="palette_midnight_navy">ミッドナイトネイビー</string>
     <string name="palette_sky_blue">スカイブルー</string>
-    <string name="palette_cobalt_blue">コバルト</string>
-    <string name="palette_electric_blue">電気</string>
+    <string name="palette_cobalt_blue">コバルトブルー</string>
+    <string name="palette_electric_blue">エレクトロブルー</string>
     <!-- Greens -->
-    <string name="palette_emerald_green">エメラルド</string>
+    <string name="palette_emerald_green">エメラルドグリーン</string>
     <string name="palette_teal_wave">ティールウェーブ</string>
     <string name="palette_forest_green">森</string>
-    <string name="palette_spotify_green">スポティファイ</string>
+    <string name="palette_spotify_green">Spotify</string>
     <string name="palette_mint_fresh">ミント</string>
     <string name="palette_olive_garden">オリーブ</string>
     <string name="palette_sage_green">セージ</string>
     <!-- Oranges & Yellows -->
-    <string name="palette_sunset_orange">日没</string>
+    <string name="palette_sunset_orange">夕暮れ</string>
     <string name="palette_golden_hour">ゴールデン</string>
     <string name="palette_warm_amber">アンバー</string>
     <string name="palette_tangerine_blast">みかん</string>
@@ -375,8 +375,8 @@
     <string name="custom_value">カスタム値</string>
     <string name="new_library_design">新しいライブラリのデザイン</string>
     <string name="new_library_design_description">新しいライブラリ設計を有効にします (不安定になる可能性があります)</string>
-    <string name="archivetune_canvas">アーカイブチューン キャンバス</string>
-    <string name="archivetune_canvas_desc">再生中にアルバムのアートワークをアニメーション化 (Powered by BetterLyrics)</string>
+    <string name="archivetune_canvas">ArchiveTune キャンバス</string>
+    <string name="archivetune_canvas_desc">再生中のアルバムアートワークをアニメーション化 (Powered by BetterLyrics)</string>
     <string name="archivetune_canvas_v7_desc">イマーシブ プレーヤー スタイルでは利用できません</string>
     <string name="show_button1_description">Discord リッチ プレゼンスのボタン 1 の表示を切り替えます</string>
     <string name="show_button2_description">Discord リッチ プレゼンスのボタン 2 の表示を切り替えます</string>
@@ -399,8 +399,8 @@
     <string name="right">右</string>
     <string name="player_slider_style">プレーヤーのスライダーのスタイル</string>
     <string name="slider_style_standard">標準</string>
-    <string name="slider_style_wavy">波状</string>
-    <string name="slider_style_thick">厚い</string>
+    <string name="slider_style_wavy">ウェーブ</string>
+    <string name="slider_style_thick">太め</string>
     <string name="slider_style_circular">円形</string>
     <string name="slider_style_simple">シンプル</string>
     <string name="default_">デフォルト</string>
@@ -409,9 +409,9 @@
     <string name="default_open_tab">デフォルトで開いているタブ</string>
     <string name="grid_cell_size">グリッドセルのサイズ</string>
     <string name="small">小</string>
-    <string name="big">大きい</string>
+    <string name="big">大</string>
     <!-- Lyrics animation style -->
-    <string name="lyrics_animation_style">歌詞アニメーション風</string>
+    <string name="lyrics_animation_style">歌詞のアニメスタイル</string>
     <!-- Animation options -->
     <string name="none">なし</string>
     <string name="fade">フェード</string>
@@ -439,12 +439,12 @@
     <string name="stream_bypass_proxy_desc">IP の不一致を避けるためにストリーム再生には直接 IP を使用してください</string>
     <string name="restart_to_take_effect">再起動して有効にします</string>
     <string name="enable_betterlyrics">BetterLyrics を有効にする</string>
-    <string name="enable_simpmusic_lyrics">SimpMusic の歌詞を有効にする</string>
+    <string name="enable_simpmusic_lyrics">SimpMusic を有効にする</string>
     <string name="player_and_audio">プレーヤーとオーディオ</string>
     <string name="audio_quality">オーディオ品質</string>
     <string name="audio_quality_auto">自動</string>
-    <string name="audio_quality_high">高</string>
-    <string name="audio_quality_low">低い</string>
+    <string name="audio_quality_high">高音質</string>
+    <string name="audio_quality_low">低音質</string>
     <string name="network_metered_title">ネットワークを従量制として扱う</string>
     <string name="network_metered_description">有効にすると、アプリは従量制ネットワーク上の低品質のストリームを優先します。</string>
     <string name="queue">キュー</string>
@@ -454,8 +454,8 @@
     <string name="permanent_shuffle_desc">新しい曲を開始するときにシャッフルを有効にしたままにする</string>
     <string name="auto_load_more">さらに多くの曲を自動ロードします</string>
     <string name="auto_load_more_desc">キューの終わりに達すると、自動的に曲を追加します。リピートモードがアクティブな場合は無効になります</string>
-    <string name="skip_silence">沈黙をスキップする</string>
-    <string name="audio_normalization">オーディオの正規化</string>
+    <string name="skip_silence">無音区間のスキップ</string>
+    <string name="audio_normalization">音量を一定に保つ</string>
     <string name="audio_offload">オーディオオフロード</string>
     <string name="audio_offload_desc">サポートされているデバイスで、低電力ハードウェア デコーディングを使用してオーディオを再生できるようにします。一部の音声処理機能が無効になります。</string>
     <string name="pause_on_device_mute">デバイスの音量が0のときに一時停止する</string>
@@ -467,7 +467,7 @@
     <string name="wakelock_desc">CPU ウェイクロックを保持することで、システムが音楽を中断するのを防ぎます。</string>
     <string name="auto_start_on_bluetooth">Bluetooth接続時の自動起動</string>
     <string name="auto_start_on_bluetooth_desc">Bluetooth オーディオ デバイスが接続されると自動的に再生を再開します</string>
-    <string name="artist_separators">アーティストを分割するためのシンボル</string>
+    <string name="artist_separators">アーティストを分割するための記号</string>
     <string name="artist_separators_desc">複数のアーティストを分割するために使用される記号</string>
     <string name="external_downloader">外部ダウンローダー</string>
     <string name="external_downloader_desc">パッケージ名に基づいて外部アプリを通じて曲をダウンロードする</string>
@@ -476,12 +476,12 @@
     <string name="open_with_downloader">ダウンローダーで開く</string>
     <string name="external_downloader_not_installed">外部ダウンローダーアプリがインストールされていない</string>
     <string name="external_downloader_not_configured">外部ダウンローダーが設定されていません。 「設定」→「プレーヤー」で設定します。</string>
-    <string name="add_symbol">シンボルを追加</string>
+    <string name="add_symbol">記号を追加</string>
     <string name="enter_symbol">記号を入力してください</string>
     <string name="equalizer">イコライザー</string>
     <string name="tap_to_activate_equalizer">タップしてイコライザーを有効にします</string>
     <string name="eq_waiting_for_audio_session">音声セッションを待っています…</string>
-    <string name="eq_open_system_equalizer">オープンシステムイコライザー</string>
+    <string name="eq_open_system_equalizer">システムイコライザーを開く</string>
     <string name="eq_presets">プリセット</string>
     <string name="eq_system">システム</string>
     <string name="eq_flat">フラット</string>
@@ -498,7 +498,7 @@
     <string name="eq_import_profiles">プロファイルをインポートする</string>
     <string name="eq_import_profiles_placeholder">イコライザープロファイルJSONを貼り付けます</string>
     <string name="eq_import_failed">無効なプロファイルデータ</string>
-    <string name="eq_imported_profile">輸入品</string>
+    <string name="eq_imported_profile">インポート済</string>
     <string name="eq_import_success">%1$d 個のプロファイルをインポートしました</string>
     <string name="eq_bands">バンド</string>
     <string name="eq_output_gain">出力ゲイン</string>
@@ -510,7 +510,7 @@
     <string name="storage_tracked_storage">%s がデバイス上で追跡されました</string>
     <string name="storage_summary_supporting">ダウンロード、再生、アートワークのキャッシュはライブで更新されます。</string>
     <string name="storage_automation_title">自動化</string>
-    <string name="storage_limit_format">Limit: %s</string>
+    <string name="storage_limit_format">制限: %s</string>
     <string name="storage_downloads_detail">削除するまでオフラインで利用できます。</string>
     <string name="storage_cache_disabled_detail">キャッシュはオフになり、自動的にクリアされます。</string>
     <string name="storage_cache_unlimited_detail">サイズ制限は適用されません。</string>
@@ -518,7 +518,7 @@
     <string name="storage_trimmer_unavailable">スマート トリマーを使用する前に、画像または曲のキャッシュを有効にしてください。</string>
     <string name="cache">キャッシュ</string>
     <string name="image_cache">画像キャッシュ</string>
-    <string name="song_cache">ソングキャッシュ</string>
+    <string name="song_cache">曲のキャッシュ</string>
     <string name="max_cache_size">最大キャッシュサイズ</string>
     <string name="unlimited">無制限</string>
     <string name="clear_all_downloads">すべてのダウンロードをクリアする</string>
@@ -554,9 +554,8 @@
     <string name="backup_create_failed">バックアップを作成できませんでした</string>
     <string name="restore_success">バックアップが正常に復元されました</string>
     <string name="restore_failed">バックアップの復元に失敗しました</string>
-    <string name="discord_integration">Discordの統合</string>
-    <string name="discord_information">ArchiveTune uses the KizzyRPC library to set your Discord account\'s status. This involves using the Discord Gateway connection, which may be considered a violation of Discord\'s TOS. However, there are no known cases of user accounts being suspended for this reason. Use at your own risk.
-ArchiveTune will only extract your token, and everything else is stored locally.</string>
+    <string name="discord_integration">Discord連携</string>
+    <string name="discord_information">ArchiveTuneはDiscordのステータスを設定するためKizzyRPCライブラリを使用します。これにはDiscord Gatewayへの接続が含まれますが、Discordの利用規約違反とみなされる可能性があります。ただし、これを理由としたユーザーアカウントの停止事例は報告されていません。ご利用は自己責任でお願いします。ArchiveTuneはトークンを取得するのみで、それ以外のデータはすべてローカルに保存されます。</string>
     <string name="options">オプション</string>
     <string name="preview">プレビュー</string>
     <string name="enable_discord_rpc">リッチ プレゼンスを有効にする</string>
@@ -675,7 +674,7 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="log_level_info">情報</string>
     <string name="log_level_warning">警告</string>
     <string name="log_level_error">エラー</string>
-    <string name="filter_discord_only">不和</string>
+    <string name="filter_discord_only">Discord</string>
     <string name="filter_all_logs">すべて</string>
     <string name="clear">クリア</string>
     <string name="logs_empty_message">利用可能な場合、ログがここに表示されます</string>
@@ -687,7 +686,7 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="playback_state_ended">終了しました</string>
     <string name="playback_state_unknown">不明</string>
     <string name="share_logs">ログを共有する</string>
-    <string name="about">について</string>
+    <string name="about">概要</string>
     <string name="open_youtube_music">YouTube ミュージックを開く</string>
     <string name="app_version">アプリのバージョン</string>
     <string name="new_version_available">新しいバージョンが利用可能になりました</string>
@@ -697,7 +696,7 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="updates_subtitle_stable">安定版リリースとリリースノート</string>
     <string name="updates_subtitle_nightly">夜間のビルドと最近の開発コミット</string>
     <string name="current_version">現在のバージョン</string>
-    <string name="latest_version_format">Latest: %s</string>
+    <string name="latest_version_format">最新版: %s</string>
     <string name="updates_status_checking">最新リリースの確認</string>
     <string name="updates_status_current">利用可能な最新リリースを使用しています</string>
     <string name="notification_settings">お知らせ</string>
@@ -724,15 +723,14 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="update_notification_title">利用可能なアップデート</string>
     <string name="update_notification_text">ArchiveTune %s が利用可能になりました</string>
     <string name="download">ダウンロード</string>
-
     <string name="permissions_title">ArchiveTune が最適に動作するようにします</string>
     <string name="permissions_subtitle">音楽を確実に再生および管理するために、いくつかの権限を使用します。これらはシステム設定でいつでも変更できます。</string>
     <string name="permission_storage_title">ストレージアクセス</string>
     <string name="permission_storage_desc">ダウンロードしたローカルのオーディオ ファイルを再生のために読み取るために必要です。</string>
     <string name="permission_notifications_title">通知</string>
     <string name="permission_notifications_desc">再生コントロールを表示し、バックグラウンドで音楽を実行し続けるために使用されます。</string>
-    <string name="permission_status_allowed">許可される</string>
-    <string name="permission_status_all_granted">必要な権限はすべて許可されます。始める準備ができました。</string>
+    <string name="permission_status_allowed">許可されている</string>
+    <string name="permission_status_all_granted">必要な権限はすべて許可されました。始める準備ができています。</string>
     <string name="permission_status_required">続行するには必要なすべての権限を許可してください。</string>
     <string name="next">次へ</string>
     <string name="next_song">次の曲</string>
@@ -744,8 +742,7 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="playlist_suggestion_source_title">プレイリストのタイトル</string>
     <string name="playlist_suggestion_source_content">プレイリストの内容</string>
     <string name="playlist_suggestion_source_both">プレイリストのタイトルと内容</string>
-
-    <string name="music_together">アーカイブ一緒に音楽をチューニング</string>
+    <string name="music_together">ArchiveTune Music Together</string>
     <string name="together_display_name">表示名</string>
     <string name="together_display_name_placeholder">あなたの名前</string>
     <string name="together_port">セッションポート</string>
@@ -770,11 +767,11 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="session_settings">セッション設定</string>
     <string name="add_current_song">現在の曲を追加</string>
     <string name="playback_controls">再生コントロール</string>
-    <string name="approve">承認する</string>
-    <string name="deny">拒否する</string>
-    <string name="dismiss">解雇する</string>
+    <string name="approve">承認</string>
+    <string name="deny">拒否</string>
+    <string name="dismiss">却下</string>
     <string name="enabled">有効</string>
-    <string name="disabled">障害者</string>
+    <string name="disabled">無効</string>
     <string name="invalid_link">無効なリンク</string>
     <string name="invalid_code">無効なコード</string>
     <string name="not_allowed">許可されていません</string>
@@ -785,13 +782,12 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="together_connection_timed_out">接続がタイムアウトしました</string>
     <string name="together_session_not_found">セッションが見つかりません</string>
     <string name="together_server_error">サーバーエラー。後でもう一度お試しください</string>
-    <string name="leave">休暇を取る</string>
-    <string name="join">参加する</string>
+    <string name="leave">退出</string>
+    <string name="join">参加</string>
     <string name="joined">参加しました</string>
     <string name="loading">読み込み中</string>
-    <string name="connecting">Connecting…</string>
+    <string name="connecting">接続中…</string>
     <string name="copy_link">リンクをコピー</string>
-
     <string name="together_host_section">ホスト</string>
     <string name="together_join_section">参加する</string>
     <string name="together_status">ステータス</string>
@@ -800,7 +796,6 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="together_joining">セッションに参加する</string>
     <string name="together_connected">接続済み</string>
     <string name="together_error_state">エラー</string>
-
     <string name="got_it">分かりました</string>
     <string name="together_dont_show_again">これを二度と表示しないでください</string>
     <string name="together_welcome_title">ArchiveTune Music Together へようこそ</string>
@@ -810,8 +805,7 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="together_welcome_join_title">別のデバイスから参加する</string>
     <string name="together_welcome_join_body">共有リンクを開くか、コードを入力して「参加」をタップします。キューと再生はホストに従います。</string>
     <string name="together_welcome_permissions_title">許可と安全性</string>
-    <string name="together_welcome_permissions_body">ホストは、ゲストが曲を追加できるか、再生を制御できるか、または参加に承認を必要とするかを決定できます。</string>
-
+    <string name="together_welcome_permissions_body">ホストは、ゲストが曲を追加、再生を制御、または参加に承認を必要とするか決定できます。</string>
     <string name="po_token_generation">POトークンの生成</string>
     <string name="po_token_generation_subtitle">Web クライアント PO トークンの生成と管理</string>
     <string name="web_client_po_token">WebクライアントPOトークン</string>
@@ -825,7 +819,7 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="use_visitor_data">訪問者データの使用</string>
     <string name="use_visitor_data_desc">訪問者データをトークン生成に使用します。 Cookie を無効にする必要があります。</string>
     <string name="cookies_must_be_disabled">訪問者データを使用するには Cookie を無効にする必要があります</string>
-    <string name="regenerate">Re-generate</string>
+    <string name="regenerate">再生成</string>
     <string name="regenerate_token">トークンを再生成する</string>
     <string name="regenerate_desc">すべてのトークンを更新する</string>
     <string name="source_url">ソースURL</string>
@@ -841,4 +835,40 @@ ArchiveTune will only extract your token, and everything else is stored locally.
     <string name="po_token_account_notice_body">PO トークンを生成する前に、ArchiveTune 内で YouTube Music にすでに使用しているのと同じ Google アカウントでここにサインインします。</string>
     <string name="po_token_account_notice_same_account">この WebView が別のアカウントを使用している場合、生成されたトークンは正しく機能しません。</string>
     <string name="po_token_account_notice_mismatch">一致するアカウントを使用してサインイン フローを完了し、youtube.com/account を開いてそのページからトークンを生成します。</string>
+    <string name="removed_song_from_queue">キューから%sを削除</string>
+    <string name="removed_n_songs_from_queue">キューから%d曲を削除</string>
+    <string name="aod_mode">常時表示モード</string>
+    <string name="aod_mode_exit">常時表示を終了</string>
+    <string name="error_malformed_stream">ソース形式が不正です</string>
+    <string name="internet">インターネット</string>
+    <string name="internet_warning_title">セキュリティ&amp;利用上の注意</string>
+    <string name="internet_warning_doh">DNS over HTTPSは、あなたの国でYouTubeがブロックされている場合にのみ機能します。YouTubeがあなたの地域を積極的にブロックしている場合は、プロキシやVPNの利用をご検討ください。</string>
+    <string name="internet_warning_proxy">安全であると確信できるプロキシのみ設定してください。無料のプロキシは便利ですが、必ずしも安全とは限りません。あなたのセキュリティに関して我々は一切の責任を負いかねます。</string>
+    <string name="dns_over_https">DNS over HTTPS</string>
+    <string name="dns_over_https_desc">ホスト名の解決に DNS over HTTPS (DoH) を使用する</string>
+    <string name="dns_provider">DNSプロバイダ</string>
+    <string name="dns_custom_url">カスタム DNS DoH URL</string>
+    <string name="proxy_host">プロキシホスト (IP)</string>
+    <string name="proxy_port">プロキシポート</string>
+    <string name="proxy_auth">プロキシ認証(任意)</string>
+    <string name="proxy_username">ユーザ名</string>
+    <string name="proxy_password">パスワード</string>
+    <string name="test_proxy_connection">プロキシ接続のテスト</string>
+    <string name="testing_proxy_connection">プロキシ接続をテスト中…</string>
+    <string name="proxy_connection_success">プロキシ接続に成功しました！</string>
+    <string name="proxy_connection_failed">プロキシ接続に失敗: %s</string>
+    <string name="enable_unison_lyrics">Unison を有効にする</string>
+    <string name="enable_paxsenix_lyrics">Paxsenix を有効にする</string>
+    <string name="clear_lyrics_cache">歌詞のキャッシュをクリアする</string>
+    <string name="clear_lyrics_cache_confirm">歌詞のキャッシュをすべて削除してもよろしいですか？</string>
+    <string name="paxsenix_stats">Paxsenix API ステータス</string>
+    <string name="uptime">稼働時間</string>
+    <string name="total_requests">リクエスト総数</string>
+    <string name="success_rate">成功率</string>
+    <string name="providers">プロバイダー</string>
+    <string name="support_development_title">開発を支援する</string>
+    <string name="support_development_message">こんにちは！ArchiveTuneの開発者、Koiverseです。もしArchiveTuneが皆さんの日常の音楽ライフに欠かせない存在となっているなら、GitHubで寄付をしていただくか、プロジェクトにスターをつけていただくことで、このプロジェクトの継続的な発展を支えていただけます。アプリを支えてくださり、ありがとうございます。</string>
+    <string name="support_development_donate">寄付で開発を支援する</string>
+    <string name="support_development_star">GitHubでスターをつける</string>
+    <string name="later">また今度</string>
 </resources>
