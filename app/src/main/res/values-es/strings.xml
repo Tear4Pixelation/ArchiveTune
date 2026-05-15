@@ -831,4 +831,5 @@
     <string name="support_development_donate">Haz una donación para apoyar el desarrollo</string>
     <string name="support_development_star">Marcar como favorito en GitHub</string>
     <string name="later">Más tarde</string>
+    <string name="enable_unison_lyrics">Activar Unison</string>
 </resources>
