@@ -570,7 +570,7 @@ ArchiveTune sẽ chỉ trích xuất token của bạn, và mọi thứ khác đ
     <string name="select_language">Chọn ngôn ngữ</string>
     <string name="close_dialog">Đóng</string>
     <string name="select_dialog">Chọn</string>
-    <string name="support_github">Star ArchiveTune!</string>
+    <string name="support_github">Sao ArchiveTune!</string>
     <!-- Update dialog -->
     <string name="new_update_available">Cập nhật mới có sẵn</string>
     <string name="release_notes_unavailable">Ghi chú phát hành không khả dụng</string>
@@ -871,4 +871,5 @@ ArchiveTune sẽ chỉ trích xuất token của bạn, và mọi thứ khác đ
     <string name="support_development_donate">Quyên góp để hỗ trợ phát triển</string>
     <string name="support_development_star">Sao trên GitHub</string>
     <string name="later">Để sau</string>
+    <string name="enable_unison_lyrics">Bật lời bài hát Unison</string>
 </resources>
