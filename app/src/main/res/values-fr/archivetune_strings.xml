@@ -364,4 +364,12 @@
     <string name="day_thu">Jeu</string>
     <string name="day_fri">Ven</string>
     <string name="day_sat">Sam</string>
+    <string name="backup_options_title">Que faut-il sauvegarder ?</string>
+    <string name="restore_options_title">Que faut-il restaurer ?</string>
+    <string name="backup_category_library">Données de la Bibliothèque</string>
+    <string name="backup_category_library_desc">Playlists, titres, historique et artistes</string>
+    <string name="backup_category_settings">Paramètres de l\'application</string>
+    <string name="backup_category_settings_desc">Apparence, lecture et préférences</string>
+    <string name="backup_category_account">Détails du Compte</string>
+    <string name="backup_category_account_desc">YouTube, Last.fm, Discord et Identifiants de Proxy</string>
 </resources>
