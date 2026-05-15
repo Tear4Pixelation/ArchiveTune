@@ -359,4 +359,12 @@
     <string name="day_thu">T5</string>
     <string name="day_fri">T6</string>
     <string name="day_sat">T7</string>
+    <string name="backup_options_title">Bạn muốn sao lưu thứ gì?</string>
+    <string name="restore_options_title">Bạn muốn khôi phục thứ gì?</string>
+    <string name="backup_category_library">Dữ liệu thư viện</string>
+    <string name="backup_category_library_desc">Danh sách phát, bài hát, lịch sử &amp; nghệ sĩ</string>
+    <string name="backup_category_settings">Cài đặt ứng dụng</string>
+    <string name="backup_category_settings_desc">Giao diện, trình phát &amp; tùy chọn cá nhân</string>
+    <string name="backup_category_account">Chi tiết tài khoản</string>
+    <string name="backup_category_account_desc">YouTube, Last.fm, Discord &amp; thông tin Proxy</string>
 </resources>
