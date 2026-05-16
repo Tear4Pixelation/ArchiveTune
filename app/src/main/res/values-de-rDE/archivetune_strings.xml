@@ -213,4 +213,27 @@
     <string name="player_stream_client_android_vr_desc">Streamt direkt ohne Signatur Entschlüsselung für maximale Geschwindigkeit. Für die meisten Nutzer geeignet.</string>
     <string name="player_stream_client_web_remix">Web Remix</string>
     <string name="player_stream_client_web_remix_desc">Erwiter Format Unterstützung auf Kosten von Geschwindigkeit. JavaScript Signatur Entschlüsselung bringt eine ca. 5-10 Sekunden start Verzögerung mit sich.</string>
+    <string name="clear_selection">Auswahl aufheben</string>
+    <string name="local_songs_ready_desc">Spiele lokale Lieder von diesem Gerät.</string>
+    <string name="local_songs_permission_body">Speicherzugriff zulassen, um Audiodateien auf diesem Gerät abzurufen.</string>
+    <string name="local_songs_empty_title">Keine lokalen Lieder gefunden</string>
+    <string name="local_songs_empty_desc">Öffne die Einstellungen und Scanne dein Gerät um offline Audio auf dem Gerät zu finden.</string>
+    <string name="local_songs_scan_failed">Scannen des Gerätes konnte nicht abgeschlossen werden.</string>
+    <string name="local_songs_scan_summary">Letzter Scan: %1$d Songs gefunden, %2$d entfernt</string>
+    <string name="local_songs_scan_title">Lokale Songs scannen</string>
+    <string name="local_songs_latest_scan">Letzter Scan</string>
+    <string name="lyrics_share_layout_square">Rechteckig</string>
+    <string name="lyrics_share_layout_portrait">Porträt</string>
+    <string name="lyrics_share_layout_story">Story</string>
+    <string name="player_design_v6">Ausdrucksvoll</string>
+    <string name="music_recognition_tap_to_listen">Tippen zum Abzuspielen</string>
+    <string name="music_recognition_processing">Verarbeiten…</string>
+    <string name="music_recognition_listen_again">Erneut anhören</string>
+    <string name="music_recognition_no_match">Keine Übereinstimmung gefunden</string>
+    <string name="music_recognition_signature_failed">Es könnte keine Signatur erstellt werden</string>
+    <string name="music_recognition_recognition_failed">Erkennung fehlgeschlagen</string>
+    <string name="music_recognition_open_shazam">Shazam öffnen</string>
+    <string name="music_recognition_listening">Zuhören…</string>
+    <string name="music_recognition_lyrics_preview">Songtextvorschau</string>
+    <string name="music_recognition_permission_title">Mikrofon-Berechtigung</string>
 </resources>
